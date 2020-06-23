@@ -1,40 +1,5 @@
-@font-face {
-  font-family: GothamPro;
-  src: url(GothamPro.woff2) format("woff2"), url(GothamPro.woff) format("woff");
-  font-weight: 200;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: GothamPro;
-  src: url(GothamPro-Italic.woff2) format("woff2"), url(GothamPro-Italic.woff) format("woff");
-  font-weight: 200;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: GothamPro;
-  src: url(GothamPro-Medium.woff2) format("woff2"), url(GothamPro-Medium.woff) format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: GothamPro;
-  src: url(GothamPro-Bold.woff2) format("woff2"), url(GothamPro-Bold.woff) format("woff");
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: Gotham;
-  src: url(Gotham-Bold.woff) format("woff"), url(Gotham-Bold.woff2) format("woff2"), url(Gotham-Bold.eot) format("eot");
-  font-weight: 600;
-  font-style: normal;
-}
-
 body {
-  font-family: "GothamPro", sans-serif;
+  font-family: "Arial", sans-serif;
   color: #F9D7EF;
   margin: 0;
 }
@@ -93,7 +58,15 @@ a:hover {
   font-weight: 600;
   font-size: 13px;
   letter-spacing: 1px;
-  margin-right: 20px;
+  margin-right: 10px;
+}
+
+#home header .connexion .signIn:hover {
+  background-color: #fff;
+  color: #1F00FF;
+  border: 1px solid #fff;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 #home header .connexion .signUp {
@@ -102,6 +75,16 @@ a:hover {
   font-weight: 600;
   color: #fff;
   letter-spacing: 1px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  padding: 15px 20px;
+  border: 1px solid transparent;
+}
+
+#home header .connexion .signUp:hover {
+  border: 1px solid #fff;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 #home .content {
@@ -117,6 +100,7 @@ a:hover {
   font-style: italic;
   font-weight: 200;
   max-width: 75%;
+  color: #fff;
 }
 
 #home .content .text h1 {
@@ -124,7 +108,6 @@ a:hover {
   font-size: 90px;
   letter-spacing: 1px;
   margin-top: 0;
-  font-family: "Gotham", sans-serif;
 }
 
 #home .content .text .cta .signIn {
@@ -136,6 +119,17 @@ a:hover {
   font-size: 13px;
   letter-spacing: 1px;
   margin-right: 20px;
+  border: 1px solid #000;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+#home .content .text .cta .signIn:hover {
+  background-color: #fff;
+  color: #1F00FF;
+  border: 1px solid #fff;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 #home .content .text .cta .knowMore {
@@ -146,6 +140,15 @@ a:hover {
   letter-spacing: 1px;
   padding: 15px 20px;
   color: #fff;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+#home .content .text .cta .knowMore:hover {
+  background-color: #fff;
+  color: #1F00FF;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 #home .img {
@@ -201,6 +204,16 @@ a:hover {
   padding: 15px 20px;
   max-width: 520px;
   margin: 0 auto;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+#about .cta:hover {
+  background-color: #fff;
+  border: 1px solid #1F00FF;
+  color: #1F00FF;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 #about .rightImg {
@@ -293,5 +306,20 @@ footer .text .footerMenu p, footer .text .footerMenu a {
   font-weight: 600;
   letter-spacing: 0.25px;
   font-size: 15px;
+}
+
+footer .text .footerMenu a {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+footer .text .footerMenu a:hover::after {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: 2px solid #fff;
+  padding-top: 5px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 /*# sourceMappingURL=style.css.map */

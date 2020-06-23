@@ -1,4 +1,3 @@
-console.log('salut');
 function juizScrollTo(element) {
     $(element).click(function () {
         var goscroll = false;
