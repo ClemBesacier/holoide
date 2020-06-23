@@ -165,7 +165,7 @@ a {
 #about {
     text-align: center;
     padding-top: 130px;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
     position: relative;
     .leftImg {
         position: absolute;
@@ -210,6 +210,7 @@ a {
     display: flex;
     margin-bottom: 50px;
     align-items: flex-start;
+    padding-top: 50px;
     .firstColumn, .secondColumn, .thirdColumn {
         width: 33%;
         padding: 0 15px;
@@ -217,9 +218,6 @@ a {
             display: flex;
             align-items: flex-start;
             margin-bottom: 50px;
-            img {
-
-            }
             .text {
                 margin-left: 15px;
                 h3 {

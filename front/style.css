@@ -166,7 +166,7 @@ a:hover {
 #about {
   text-align: center;
   padding-top: 130px;
-  margin-bottom: 200px;
+  margin-bottom: 150px;
   position: relative;
 }
 
@@ -219,6 +219,7 @@ a:hover {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  padding-top: 50px;
 }
 
 #portail .firstColumn, #portail .secondColumn, #portail .thirdColumn {
