@@ -43,6 +43,20 @@ section {
   padding: 0 30px;
 }
 
+h2 {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
+
+p {
+  color: #000;
+  font-weight: 200;
+  font-size: 15px;
+  letter-spacing: 0.75px;
+}
+
 a {
   text-decoration: none;
 }
@@ -54,6 +68,7 @@ a:hover {
 #home {
   background-color: #1F00FF;
   padding-bottom: 50px;
+  position: relative;
 }
 
 #home header {
@@ -91,6 +106,7 @@ a:hover {
 
 #home .content {
   padding-left: 100px;
+  margin-bottom: 100px;
 }
 
 #home .content .text {
@@ -130,5 +146,151 @@ a:hover {
   letter-spacing: 1px;
   padding: 15px 20px;
   color: #fff;
+}
+
+#home .img {
+  position: absolute;
+  top: calc(50% - 300px);
+  right: 15px;
+  width: 55%;
+}
+
+#home .arrow {
+  text-align: center;
+}
+
+#home .arrow img {
+  width: 35px;
+}
+
+#about {
+  text-align: center;
+  padding-top: 130px;
+  margin-bottom: 200px;
+  position: relative;
+}
+
+#about .leftImg {
+  position: absolute;
+  top: -110px;
+  left: -100px;
+  width: 40%;
+  z-index: -1;
+}
+
+#about h2 {
+  max-width: 520px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+#about p {
+  line-height: 30px;
+  max-width: 520px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+#about .cta {
+  background-color: #1F00FF;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 1px;
+  padding: 15px 20px;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+#about .rightImg {
+  position: absolute;
+  top: -110px;
+  right: 0;
+  width: 40%;
+  z-index: -1;
+}
+
+#portail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#portail .firstColumn, #portail .secondColumn, #portail .thirdColumn {
+  width: 33%;
+  padding: 0 15px;
+}
+
+#portail .firstColumn .element, #portail .secondColumn .element, #portail .thirdColumn .element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 50px;
+}
+
+#portail .firstColumn .element .text, #portail .secondColumn .element .text, #portail .thirdColumn .element .text {
+  margin-left: 15px;
+}
+
+#portail .firstColumn .element .text h3, #portail .secondColumn .element .text h3, #portail .thirdColumn .element .text h3 {
+  color: #000;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+}
+
+#portail .firstColumn .element .text p, #portail .secondColumn .element .text p, #portail .thirdColumn .element .text p {
+  line-height: 22px;
+}
+
+footer {
+  position: relative;
+}
+
+footer .img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  z-index: -1;
+}
+
+footer .text {
+  text-align: center;
+  padding-top: 50px;
+}
+
+footer .text img {
+  margin-bottom: 50px;
+}
+
+footer .text .footerMenu {
+  max-width: 800px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .text .footerMenu p, footer .text .footerMenu a {
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  font-size: 15px;
 }
 /*# sourceMappingURL=style.css.map */
