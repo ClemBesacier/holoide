@@ -28,9 +28,17 @@
   font-style: normal
 }
 
+@font-face {
+  font-family: Gotham;
+  src: url(Gotham-Bold.woff) format("woff"), url(Gotham-Bold.woff2) format("woff2"), url(Gotham-Bold.eot) format("eot");
+  font-weight: 600;
+  font-style: normal
+}
+
 // Variables
 
 $font: 'GothamPro', sans-serif;
+$fontTitle: 'Gotham', sans-serif;
 
 $blue: #1F00FF;
 $pink: #F9D7EF;
@@ -40,5 +48,89 @@ $pink: #F9D7EF;
 body {
     font-family: $font;
     color: $pink;
+    margin: 0;
+}
+
+section {
+    padding: 0 30px;
+}
+
+a {
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+// Onepage
+
+#home {
+    background-color: $blue;
+    padding-bottom: 50px;
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 30px;
+        margin-bottom: 70px;
+        .connexion {
+            .signIn {
+                background-color: #000;
+                padding: 15px 20px;
+                color: #fff;
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: 13px;
+                letter-spacing: 1px;    
+                margin-right: 20px;
+            }
+            .signUp {
+                text-transform: uppercase;
+                font-size: 13px;
+                font-weight: 600;
+                color: #fff;
+                letter-spacing: 1px;
+            }
+        }
+    }
+    .content {
+        padding-left: 100px;
+        .text {
+            max-width: 33%;
+            p {
+                font-style: italic;
+                font-weight: 200;
+                max-width: 75%;
+            }
+            h1 {
+                font-weight: 600;
+                font-size: 90px;
+                letter-spacing: 1px;
+                margin-top: 0;
+                font-family: $fontTitle;
+            }
+            .cta {
+                .signIn {
+                    background-color: #000;
+                    padding: 15px 20px;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    font-size: 13px;
+                    letter-spacing: 1px;    
+                    margin-right: 20px;
+                }
+                .knowMore {
+                    border: 1px solid #fff;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    font-size: 13px;
+                    letter-spacing: 1px;
+                    padding: 15px 20px;
+                    color: #fff;
+                }
+            }
+        }
+    }
 }
 
